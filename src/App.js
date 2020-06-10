@@ -23,7 +23,7 @@ function App() {
   return (
       <div className='container'>
         <Header />
-        <Gallery pic={picObject.url}/>
+        <Gallery pic={picObject.url} date={picObject.date}/>
         <Footer />
       </div>
   );

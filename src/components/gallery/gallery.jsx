@@ -4,10 +4,10 @@ import '../../index.css'
 
 
 export default function Gallery(props){
-const {pic} = props
+const {pic, date} = props
     return (
         <div className= 'gallery'>
-            <Card pic={pic}/>
+            <Card pic={pic} date={date}/>
         </div>
     )
 }
