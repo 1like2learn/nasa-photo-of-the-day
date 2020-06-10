@@ -3,11 +3,11 @@ import Card from './card/card'
 import '../../index.css'
 
 
-export default function Gallery(){
-
+export default function Gallery(props){
+const {pic} = props
     return (
         <div className= 'gallery'>
-            <Card />
+            <Card pic={pic}/>
         </div>
     )
 }
