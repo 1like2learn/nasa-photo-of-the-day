@@ -1,7 +1,11 @@
+import React from "react";
+import Card from './card/card'
+
+
 export default function Gallery(){
 
     return (
-        <div>
+        <div className= 'gallery'>
             <Card />
         </div>
     )
