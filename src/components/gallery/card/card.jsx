@@ -1,5 +1,7 @@
 import React from "react";
 import photo from './logo512.png'
+import '../../../index.css'
+
 
 export default function Cards() {
     

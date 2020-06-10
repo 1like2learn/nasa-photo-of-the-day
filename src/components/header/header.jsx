@@ -1,5 +1,6 @@
 import React from "react";
 import image from './logo192.png'
+import '../../index.css'
 
 export default function Gallery(){
 
