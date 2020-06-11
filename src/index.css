@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 65.5%;
 	font: inherit;
   vertical-align: baseline;
-  border: 1px blueviolet solid;
+  /* border: 1px blueviolet solid; */
 }
 
 body {

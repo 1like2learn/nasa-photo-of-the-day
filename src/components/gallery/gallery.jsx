@@ -4,7 +4,8 @@ import '../../index.css'
 import styled from 'styled-components'
 
 const StyledGallery = styled.div `
-    width: 100%;
+    display: flex;
+    justify-content: center;
     margin: 5% 0;
 
 `

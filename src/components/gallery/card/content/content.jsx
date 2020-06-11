@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledContent = styled.div `
     text-align: center;
+    padding-top: 3%;
 `
 
 export default function Content(props){

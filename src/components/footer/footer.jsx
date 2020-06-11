@@ -4,6 +4,8 @@ import styled from 'styled-components'
 
 const StyledFooter = styled.div `
     text-align: center;
+    padding: 2%;
+    background-color: #61dafb;
 `
 
 export default function Footer(){
