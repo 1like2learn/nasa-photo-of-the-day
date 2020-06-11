@@ -5,8 +5,11 @@ import Header from './components/header/header'
 import Gallery from './components/gallery/gallery'
 import Footer from './components/footer/footer'
 import {API_KEY, API_URL} from './Constants'
+import styled from 'styled-components'
 
-
+const Container = styled.div`
+  width: 100%;
+`
 
 function App() {
 
@@ -21,11 +24,11 @@ function App() {
     })
   }, [])
   return (
-      <div className='container'>
+      <Container>
         <Header />
         <Gallery pic={picObject.url} date={picObject.date}/>
         <Footer />
-      </div>
+      </Container>
   );
 }
 

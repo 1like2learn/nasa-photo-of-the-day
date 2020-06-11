@@ -3,16 +3,22 @@ import React from "react";
 import '../../../index.css'
 import Content from './content/content'
 import Image from './image/image'
+import styled from 'styled-components'
 
+const StyledCard = styled.div `
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 
+`
 
 export default function Cards(props) {
     const {pic, date} = props 
 
     return (
-        <div className= 'card'>
+        <StyledCard>
             <Image pic ={pic}/>
             <Content date ={date}/>
-        </div>
+        </StyledCard>
     )
 }

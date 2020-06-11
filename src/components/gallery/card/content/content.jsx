@@ -1,13 +1,17 @@
 import React from 'react'
 import '../../../../index.css'
+import styled from 'styled-components'
 
+const StyledContent = styled.div `
+    text-align: center;
+`
 
 export default function Content(props){
     const {date} = props
 
     return(
-        <div className = 'content'>
+        <StyledContent>
             <p>Date: {date}</p>
-        </div>
+        </StyledContent>
     )
 }
