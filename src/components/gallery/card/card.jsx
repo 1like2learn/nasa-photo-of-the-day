@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import photo from './logo512.png'
+import React from "react";
+// import photo from './logo512.png'
 import '../../../index.css'
 import Content from './content/content'
 import Image from './image/image'
