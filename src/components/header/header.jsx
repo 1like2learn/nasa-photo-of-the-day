@@ -7,6 +7,12 @@ const StyledHeader = styled.div `
     display: flex;
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    @media(max-width: 500px){
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     .logo{
         max-width:129px;
         max-height:136px;
@@ -16,6 +22,10 @@ const StyledHeader = styled.div `
     flex-direction: column;
     justify-content: space-around;
     padding-left: 2%;
+
+    @media(max-width: 500px){
+        align-items: center;
+    }
 
         h1{
         font-size: 3rem;

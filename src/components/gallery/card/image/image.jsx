@@ -7,9 +7,8 @@ const StyledImage = styled.div `
         display: flex;
         justify-content: center;
         img{
-            
+
             width: 80%;
-            max-width: 1200px;
         }
     }
 `

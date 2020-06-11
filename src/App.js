@@ -8,7 +8,11 @@ import {API_KEY, API_URL} from './Constants'
 import styled from 'styled-components'
 
 const Container = styled.div`
-  width: 100%;
+  /* position: relative; */
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `
 
 function App() {
@@ -23,12 +27,13 @@ function App() {
       console.log(error)
     })
   }, [])
+  console.log(picObject.title)
   return (
-      <Container>
-        <Header />
-        <Gallery pic={picObject.url} date={picObject.date}/>
-        <Footer />
-      </Container>
+        <Container>
+          <Header />
+          <Gallery pic={picObject.url} date={picObject.date} title= {picObject.title} explain={picObject.explanation}/>
+          <Footer />
+        </Container>   
   );
 }
 

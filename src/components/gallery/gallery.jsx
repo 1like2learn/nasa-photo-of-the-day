@@ -11,10 +11,10 @@ const StyledGallery = styled.div `
 `
 
 export default function Gallery(props){
-const {pic, date} = props
+const {pic, date, title, explain} = props
     return (
         <StyledGallery>
-            <Card pic={pic} date={date}/>
+            <Card pic={pic} date={date} title={title} explain={explain}/>
         </StyledGallery>
     )
 }
